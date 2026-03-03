@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <!-- ================================================= -->
+    <!-- App Identity -->
+    <!-- ================================================= -->
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+
+    <key>CFBundleDisplayName</key>
+    <string>CerviScan</string>
+
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+
+    <key>CFBundleName</key>
+    <string>$(PRODUCT_NAME)</string>
+
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+
+    <key>CFBundleVersion</key>
+    <string>1</string>
+
+
+    <!-- ================================================= -->
+    <!-- Permissions -->
+    <!-- ================================================= -->
+    <key>NSCameraUsageDescription</key>
+    <string>This app needs camera access to capture X-ray images.</string>
+
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app needs photo library access to select X-ray images.</string>
+
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>This app needs local network access to connect to the CerviScan server.</string>
+
+    <key>NSBonjourServices</key>
+    <array>
+        <string>_http._tcp</string>
+    </array>
+
+
+    <!-- ================================================= -->
+    <!-- 🔥 REQUIRED FOR NGROK + REAL iPHONE 🔥 -->
+    <!-- ================================================= -->
+    <!-- ================================================= -->
+    <!-- 🔥 APP TRANSPORT SECURITY (FINAL FIX) 🔥 -->
+    <!-- ================================================= -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <!-- Allow ALL HTTP / HTTPS (DEV MODE) -->
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+
+        <!-- Allow Local Network IP access -->
+        <key>NSAllowsLocalNetworking</key>
+        <true/>
+    </dict>
+
+
+    <!-- ================================================= -->
+    <!-- Background Tasks -->
+    <!-- ================================================= -->
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>fetch</string>
+    </array>
+
+</dict>
+</plist>
+

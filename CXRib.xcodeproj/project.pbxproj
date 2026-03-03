@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA60D0062F312146006DB60E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFD12F312146006DB60E /* APIClient.swift */; };
+		FA60D0082F312146006DB60E /* FLDebugTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFE02F312146006DB60E /* FLDebugTools.swift */; };
+		FA60D0092F312146006DB60E /* DetectionExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFD92F312146006DB60E /* DetectionExplanationView.swift */; };
+		FA60D00A2F312146006DB60E /* ImageXrayHeuristics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFE82F312146006DB60E /* ImageXrayHeuristics.swift */; };
+		FA60D00B2F312146006DB60E /* OTPVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFEE2F312146006DB60E /* OTPVerificationView.swift */; };
+		FA60D00C2F312146006DB60E /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFF12F312146006DB60E /* PrivacyPolicyView.swift */; };
+		FA60D00D2F312146006DB60E /* PatientDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFEF2F312146006DB60E /* PatientDetailsView.swift */; };
+		FA60D00E2F312146006DB60E /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60D0032F312146006DB60E /* SessionManager.swift */; };
+		FA60D00F2F312146006DB60E /* LoginSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFEA2F312146006DB60E /* LoginSignupView.swift */; };
+		FA60D0102F312146006DB60E /* FLTrainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFE22F312146006DB60E /* FLTrainer.swift */; };
+		FA60D0112F312146006DB60E /* ScanHistory+Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFF42F312146006DB60E /* ScanHistory+Server.swift */; };
+		FA60D0122F312146006DB60E /* ReportDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFF32F312146006DB60E /* ReportDetailsView.swift */; };
+		FA60D0132F312146006DB60E /* AppProfileImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFD62F312146006DB60E /* AppProfileImagePicker.swift */; };
+		FA60D0142F312146006DB60E /* helpUsageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFE42F312146006DB60E /* helpUsageView.swift */; };
+		FA60D0162F312146006DB60E /* MultipartFormDataBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFEC2F312146006DB60E /* MultipartFormDataBuilder.swift */; };
+		FA60D0172F312146006DB60E /* AboutCervicalRibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFD02F312146006DB60E /* AboutCervicalRibView.swift */; };
+		FA60D0182F312146006DB60E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFD32F312146006DB60E /* APIService.swift */; };
+		FA60D0192F312146006DB60E /* SyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFF82F312146006DB60E /* SyncManager.swift */; };
+		FA60D01A2F312146006DB60E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFD52F312146006DB60E /* AppDelegate.swift */; };
+		FA60D01B2F312146006DB60E /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFD22F312146006DB60E /* APIModels.swift */; };
+		FA60D01C2F312146006DB60E /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFD42F312146006DB60E /* AppConfig.swift */; };
+		FA60D01D2F312146006DB60E /* FLModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFE12F312146006DB60E /* FLModelManager.swift */; };
+		FA60D01E2F312146006DB60E /* UploadXrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFFA2F312146006DB60E /* UploadXrayView.swift */; };
+		FA60D01F2F312146006DB60E /* IOSBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFE92F312146006DB60E /* IOSBackButton.swift */; };
+		FA60D0202F312146006DB60E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFEB2F312146006DB60E /* LoginView.swift */; };
+		FA60D0212F312146006DB60E /* DetectionResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFDA2F312146006DB60E /* DetectionResultView.swift */; };
+		FA60D0222F312146006DB60E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFED2F312146006DB60E /* OnboardingView.swift */; };
+		FA60D0232F312146006DB60E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFDB2F312146006DB60E /* Extension.swift */; };
+		FA60D0242F312146006DB60E /* FLDatasetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFDF2F312146006DB60E /* FLDatasetManager.swift */; };
+		FA60D0252F312146006DB60E /* FLTrainingSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFE32F312146006DB60E /* FLTrainingSample.swift */; };
+		FA60D0262F312146006DB60E /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFE62F312146006DB60E /* HistoryViewModel.swift */; };
+		FA60D0272F312146006DB60E /* FLClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFDD2F312146006DB60E /* FLClient.swift */; };
+		FA60D0292F312146006DB60E /* CerviScanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFFE2F312146006DB60E /* CerviScanApp.swift */; };
+		FA60D02A2F312146006DB60E /* AuthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFD72F312146006DB60E /* AuthStore.swift */; };
+		FA60D02B2F312146006DB60E /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60D0022F312146006DB60E /* NetworkMonitor.swift */; };
+		FA60D02C2F312146006DB60E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFF52F312146006DB60E /* SplashView.swift */; };
+		FA60D02D2F312146006DB60E /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFE52F312146006DB60E /* HistoryView.swift */; };
+		FA60D02E2F312146006DB60E /* FLConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFDE2F312146006DB60E /* FLConfig.swift */; };
+		FA60D02F2F312146006DB60E /* CerviScan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFFD2F312146006DB60E /* CerviScan.xcdatamodeld */; };
+		FA60D0302F312146006DB60E /* FLBackgroundSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFDC2F312146006DB60E /* FLBackgroundSync.swift */; };
+		FA60D0312F312146006DB60E /* HomeDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFE72F312146006DB60E /* HomeDashboardView.swift */; };
+		FA60D0322F312146006DB60E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFF22F312146006DB60E /* ProfileView.swift */; };
+		FA60D0332F312146006DB60E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFFF2F312146006DB60E /* ContentView.swift */; };
+		FA60D0342F312146006DB60E /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFF62F312146006DB60E /* SubscriptionView.swift */; };
+		FA60D0352F312146006DB60E /* CerviscanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFD82F312146006DB60E /* CerviscanModel.swift */; };
+		FA60D0362F312146006DB60E /* SwipeBackFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFF72F312146006DB60E /* SwipeBackFix.swift */; };
+		FA60D0372F312146006DB60E /* images.img in Resources */ = {isa = PBXBuildFile; fileRef = FA60CFCE2F312146006DB60E /* images.img */; };
+		FA60D0392F312146006DB60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA60CFFC2F312146006DB60E /* Assets.xcassets */; };
+		FA60D03A2F3123D4006DB60E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60D0002F312146006DB60E /* CoreDataManager.swift */; };
+		FA60D1862F31CD00006DB60E /* ScanHistoryDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60D1852F31CCFD006DB60E /* ScanHistoryDTO.swift */; };
+		FA8AFEE22EC1D2BA00033795 /* conversion.py in Resources */ = {isa = PBXBuildFile; fileRef = FA8AFEDF2EC1D2BA00033795 /* conversion.py */; };
+		FA9A81EF2F3495BE00BBBF00 /* TFLitePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60CFF92F312146006DB60E /* TFLitePredictor.swift */; };
+		FAB038742F373A7700D25A0E /* CERVISCAN_FINAL.h5 in Resources */ = {isa = PBXBuildFile; fileRef = FAB038732F373A7700D25A0E /* CERVISCAN_FINAL.h5 */; };
+		FAB038762F373A8300D25A0E /* CERVISCAN_FINAL.keras in Resources */ = {isa = PBXBuildFile; fileRef = FAB038752F373A8300D25A0E /* CERVISCAN_FINAL.keras */; };
+		FAB038782F373AC300D25A0E /* CERVISCAN_model_FINAL (2).tflite in Resources */ = {isa = PBXBuildFile; fileRef = FAB038772F373AC300D25A0E /* CERVISCAN_model_FINAL (2).tflite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		434A9FBB63341B24714FBC84 /* Pods_CerviScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CerviScan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67AECBD81E94EE06D65FFC35 /* Pods-CerviScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CerviScan.debug.xcconfig"; path = "Target Support Files/Pods-CerviScan/Pods-CerviScan.debug.xcconfig"; sourceTree = "<group>"; };
+		BCC6F97F174310A08BE63674 /* Pods-CerviScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CerviScan.release.xcconfig"; path = "Target Support Files/Pods-CerviScan/Pods-CerviScan.release.xcconfig"; sourceTree = "<group>"; };
+		FA1F15A82E9BAAC0009D9A72 /* CXRib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXRib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA60CFCE2F312146006DB60E /* images.img */ = {isa = PBXFileReference; lastKnownFileType = text; path = images.img; sourceTree = "<group>"; };
+		FA60CFD02F312146006DB60E /* AboutCervicalRibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCervicalRibView.swift; sourceTree = "<group>"; };
+		FA60CFD12F312146006DB60E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		FA60CFD22F312146006DB60E /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		FA60CFD32F312146006DB60E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		FA60CFD42F312146006DB60E /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		FA60CFD52F312146006DB60E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA60CFD62F312146006DB60E /* AppProfileImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProfileImagePicker.swift; sourceTree = "<group>"; };
+		FA60CFD72F312146006DB60E /* AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStore.swift; sourceTree = "<group>"; };
+		FA60CFD82F312146006DB60E /* CerviscanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerviscanModel.swift; sourceTree = "<group>"; };
+		FA60CFD92F312146006DB60E /* DetectionExplanationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionExplanationView.swift; sourceTree = "<group>"; };
+		FA60CFDA2F312146006DB60E /* DetectionResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionResultView.swift; sourceTree = "<group>"; };
+		FA60CFDB2F312146006DB60E /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		FA60CFDC2F312146006DB60E /* FLBackgroundSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLBackgroundSync.swift; sourceTree = "<group>"; };
+		FA60CFDD2F312146006DB60E /* FLClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLClient.swift; sourceTree = "<group>"; };
+		FA60CFDE2F312146006DB60E /* FLConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLConfig.swift; sourceTree = "<group>"; };
+		FA60CFDF2F312146006DB60E /* FLDatasetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLDatasetManager.swift; sourceTree = "<group>"; };
+		FA60CFE02F312146006DB60E /* FLDebugTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLDebugTools.swift; sourceTree = "<group>"; };
+		FA60CFE12F312146006DB60E /* FLModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLModelManager.swift; sourceTree = "<group>"; };
+		FA60CFE22F312146006DB60E /* FLTrainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLTrainer.swift; sourceTree = "<group>"; };
+		FA60CFE32F312146006DB60E /* FLTrainingSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLTrainingSample.swift; sourceTree = "<group>"; };
+		FA60CFE42F312146006DB60E /* helpUsageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpUsageView.swift; sourceTree = "<group>"; };
+		FA60CFE52F312146006DB60E /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		FA60CFE62F312146006DB60E /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		FA60CFE72F312146006DB60E /* HomeDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDashboardView.swift; sourceTree = "<group>"; };
+		FA60CFE82F312146006DB60E /* ImageXrayHeuristics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageXrayHeuristics.swift; sourceTree = "<group>"; };
+		FA60CFE92F312146006DB60E /* IOSBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSBackButton.swift; sourceTree = "<group>"; };
+		FA60CFEA2F312146006DB60E /* LoginSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupView.swift; sourceTree = "<group>"; };
+		FA60CFEB2F312146006DB60E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FA60CFEC2F312146006DB60E /* MultipartFormDataBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartFormDataBuilder.swift; sourceTree = "<group>"; };
+		FA60CFED2F312146006DB60E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		FA60CFEE2F312146006DB60E /* OTPVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationView.swift; sourceTree = "<group>"; };
+		FA60CFEF2F312146006DB60E /* PatientDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDetailsView.swift; sourceTree = "<group>"; };
+		FA60CFF12F312146006DB60E /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		FA60CFF22F312146006DB60E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FA60CFF32F312146006DB60E /* ReportDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportDetailsView.swift; sourceTree = "<group>"; };
+		FA60CFF42F312146006DB60E /* ScanHistory+Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScanHistory+Server.swift"; sourceTree = "<group>"; };
+		FA60CFF52F312146006DB60E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		FA60CFF62F312146006DB60E /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		FA60CFF72F312146006DB60E /* SwipeBackFix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeBackFix.swift; sourceTree = "<group>"; };
+		FA60CFF82F312146006DB60E /* SyncManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncManager.swift; sourceTree = "<group>"; };
+		FA60CFF92F312146006DB60E /* TFLitePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFLitePredictor.swift; sourceTree = "<group>"; };
+		FA60CFFA2F312146006DB60E /* UploadXrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadXrayView.swift; sourceTree = "<group>"; };
+		FA60CFFC2F312146006DB60E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA60CFFE2F312146006DB60E /* CerviScanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerviScanApp.swift; sourceTree = "<group>"; };
+		FA60CFFF2F312146006DB60E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA60D0002F312146006DB60E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		FA60D0012F312146006DB60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA60D0022F312146006DB60E /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		FA60D0032F312146006DB60E /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		FA60D0052F312146006DB60E /* CerviScan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CerviScan.xcdatamodel; sourceTree = "<group>"; };
+		FA60D1852F31CCFD006DB60E /* ScanHistoryDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanHistoryDTO.swift; sourceTree = "<group>"; };
+		FA8AFEDF2EC1D2BA00033795 /* conversion.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = conversion.py; sourceTree = "<group>"; };
+		FAB038732F373A7700D25A0E /* CERVISCAN_FINAL.h5 */ = {isa = PBXFileReference; lastKnownFileType = file; path = CERVISCAN_FINAL.h5; sourceTree = "<group>"; };
+		FAB038752F373A8300D25A0E /* CERVISCAN_FINAL.keras */ = {isa = PBXFileReference; lastKnownFileType = file; path = CERVISCAN_FINAL.keras; sourceTree = "<group>"; };
+		FAB038772F373AC300D25A0E /* CERVISCAN_model_FINAL (2).tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CERVISCAN_model_FINAL (2).tflite"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA1F15A52E9BAAC0009D9A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B469E2CD24D90F8BEDE90FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67AECBD81E94EE06D65FFC35 /* Pods-CerviScan.debug.xcconfig */,
+				BCC6F97F174310A08BE63674 /* Pods-CerviScan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B828ECF4771D8B3541D7540 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				434A9FBB63341B24714FBC84 /* Pods_CerviScan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA1F159F2E9BAAC0009D9A72 = {
+			isa = PBXGroup;
+			children = (
+				FA8AFEE12EC1D2BA00033795 /* vicky-fl */,
+				FA60D0042F312146006DB60E /* CXRib */,
+				FA1F15A92E9BAAC0009D9A72 /* Products */,
+				0B469E2CD24D90F8BEDE90FE /* Pods */,
+				6B828ECF4771D8B3541D7540 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		FA1F15A92E9BAAC0009D9A72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA1F15A82E9BAAC0009D9A72 /* CXRib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA60CFCF2F312146006DB60E /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				FA60CFCE2F312146006DB60E /* images.img */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		FA60CFFB2F312146006DB60E /* viewsfolder */ = {
+			isa = PBXGroup;
+			children = (
+				FA60CFD02F312146006DB60E /* AboutCervicalRibView.swift */,
+				FA60CFD12F312146006DB60E /* APIClient.swift */,
+				FA60CFD22F312146006DB60E /* APIModels.swift */,
+				FA60CFD32F312146006DB60E /* APIService.swift */,
+				FA60CFD42F312146006DB60E /* AppConfig.swift */,
+				FA60CFD52F312146006DB60E /* AppDelegate.swift */,
+				FA60CFD62F312146006DB60E /* AppProfileImagePicker.swift */,
+				FA60CFD72F312146006DB60E /* AuthStore.swift */,
+				FA60CFD82F312146006DB60E /* CerviscanModel.swift */,
+				FA60CFD92F312146006DB60E /* DetectionExplanationView.swift */,
+				FA60CFDA2F312146006DB60E /* DetectionResultView.swift */,
+				FA60CFDB2F312146006DB60E /* Extension.swift */,
+				FA60CFDC2F312146006DB60E /* FLBackgroundSync.swift */,
+				FA60CFDD2F312146006DB60E /* FLClient.swift */,
+				FA60CFDE2F312146006DB60E /* FLConfig.swift */,
+				FA60CFDF2F312146006DB60E /* FLDatasetManager.swift */,
+				FA60D1852F31CCFD006DB60E /* ScanHistoryDTO.swift */,
+				FA60CFE02F312146006DB60E /* FLDebugTools.swift */,
+				FA60CFE12F312146006DB60E /* FLModelManager.swift */,
+				FA60CFE22F312146006DB60E /* FLTrainer.swift */,
+				FA60CFE32F312146006DB60E /* FLTrainingSample.swift */,
+				FA60CFE42F312146006DB60E /* helpUsageView.swift */,
+				FA60CFE52F312146006DB60E /* HistoryView.swift */,
+				FA60CFE62F312146006DB60E /* HistoryViewModel.swift */,
+				FA60CFE72F312146006DB60E /* HomeDashboardView.swift */,
+				FA60CFE82F312146006DB60E /* ImageXrayHeuristics.swift */,
+				FA60CFE92F312146006DB60E /* IOSBackButton.swift */,
+				FA60CFEA2F312146006DB60E /* LoginSignupView.swift */,
+				FA60CFEB2F312146006DB60E /* LoginView.swift */,
+				FA60CFEC2F312146006DB60E /* MultipartFormDataBuilder.swift */,
+				FA60CFED2F312146006DB60E /* OnboardingView.swift */,
+				FA60CFEE2F312146006DB60E /* OTPVerificationView.swift */,
+				FA60CFEF2F312146006DB60E /* PatientDetailsView.swift */,
+				FA60CFF12F312146006DB60E /* PrivacyPolicyView.swift */,
+				FA60CFF22F312146006DB60E /* ProfileView.swift */,
+				FA60CFF32F312146006DB60E /* ReportDetailsView.swift */,
+				FA60CFF42F312146006DB60E /* ScanHistory+Server.swift */,
+				FA60CFF52F312146006DB60E /* SplashView.swift */,
+				FA60CFF62F312146006DB60E /* SubscriptionView.swift */,
+				FA60CFF72F312146006DB60E /* SwipeBackFix.swift */,
+				FA60CFF82F312146006DB60E /* SyncManager.swift */,
+				FA60CFF92F312146006DB60E /* TFLitePredictor.swift */,
+				FA60CFFA2F312146006DB60E /* UploadXrayView.swift */,
+			);
+			path = viewsfolder;
+			sourceTree = "<group>";
+		};
+		FA60D0042F312146006DB60E /* CXRib */ = {
+			isa = PBXGroup;
+			children = (
+				FA60CFCF2F312146006DB60E /* assets */,
+				FA60CFFB2F312146006DB60E /* viewsfolder */,
+				FA60CFFC2F312146006DB60E /* Assets.xcassets */,
+				FA60CFFD2F312146006DB60E /* CerviScan.xcdatamodeld */,
+				FA60CFFE2F312146006DB60E /* CerviScanApp.swift */,
+				FA60CFFF2F312146006DB60E /* ContentView.swift */,
+				FA60D0002F312146006DB60E /* CoreDataManager.swift */,
+				FA60D0012F312146006DB60E /* Info.plist */,
+				FA60D0022F312146006DB60E /* NetworkMonitor.swift */,
+				FA60D0032F312146006DB60E /* SessionManager.swift */,
+			);
+			path = CXRib;
+			sourceTree = "<group>";
+		};
+		FA8AFEE12EC1D2BA00033795 /* vicky-fl */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AFEDF2EC1D2BA00033795 /* conversion.py */,
+				FAB038772F373AC300D25A0E /* CERVISCAN_model_FINAL (2).tflite */,
+				FAB038752F373A8300D25A0E /* CERVISCAN_FINAL.keras */,
+				FAB038732F373A7700D25A0E /* CERVISCAN_FINAL.h5 */,
+			);
+			path = "vicky-fl";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA1F15A72E9BAAC0009D9A72 /* CXRib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1F15B32E9BAAC1009D9A72 /* Build configuration list for PBXNativeTarget "CXRib" */;
+			buildPhases = (
+				FA1F15A42E9BAAC0009D9A72 /* Sources */,
+				FA1F15A52E9BAAC0009D9A72 /* Frameworks */,
+				FA1F15A62E9BAAC0009D9A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CXRib;
+			productName = CerviScan;
+			productReference = FA1F15A82E9BAAC0009D9A72 /* CXRib.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA1F15A02E9BAAC0009D9A72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					FA1F15A72E9BAAC0009D9A72 = {
+						CreatedOnToolsVersion = 26.0.1;
+						LastSwiftMigration = 2600;
+					};
+				};
+			};
+			buildConfigurationList = FA1F15A32E9BAAC0009D9A72 /* Build configuration list for PBXProject "CXRib" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA1F159F2E9BAAC0009D9A72;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FA9A81B42F347E5A00BBBF00 /* XCRemoteSwiftPackageReference "tensorflow" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FA1F15A92E9BAAC0009D9A72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA1F15A72E9BAAC0009D9A72 /* CXRib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA1F15A62E9BAAC0009D9A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB038782F373AC300D25A0E /* CERVISCAN_model_FINAL (2).tflite in Resources */,
+				FA8AFEE22EC1D2BA00033795 /* conversion.py in Resources */,
+				FAB038762F373A8300D25A0E /* CERVISCAN_FINAL.keras in Resources */,
+				FA60D0372F312146006DB60E /* images.img in Resources */,
+				FA60D0392F312146006DB60E /* Assets.xcassets in Resources */,
+				FAB038742F373A7700D25A0E /* CERVISCAN_FINAL.h5 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA1F15A42E9BAAC0009D9A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA60D0062F312146006DB60E /* APIClient.swift in Sources */,
+				FA60D1862F31CD00006DB60E /* ScanHistoryDTO.swift in Sources */,
+				FA60D0082F312146006DB60E /* FLDebugTools.swift in Sources */,
+				FA9A81EF2F3495BE00BBBF00 /* TFLitePredictor.swift in Sources */,
+				FA60D0092F312146006DB60E /* DetectionExplanationView.swift in Sources */,
+				FA60D00A2F312146006DB60E /* ImageXrayHeuristics.swift in Sources */,
+				FA60D00B2F312146006DB60E /* OTPVerificationView.swift in Sources */,
+				FA60D00C2F312146006DB60E /* PrivacyPolicyView.swift in Sources */,
+				FA60D00D2F312146006DB60E /* PatientDetailsView.swift in Sources */,
+				FA60D00E2F312146006DB60E /* SessionManager.swift in Sources */,
+				FA60D00F2F312146006DB60E /* LoginSignupView.swift in Sources */,
+				FA60D0102F312146006DB60E /* FLTrainer.swift in Sources */,
+				FA60D0112F312146006DB60E /* ScanHistory+Server.swift in Sources */,
+				FA60D0122F312146006DB60E /* ReportDetailsView.swift in Sources */,
+				FA60D0132F312146006DB60E /* AppProfileImagePicker.swift in Sources */,
+				FA60D0142F312146006DB60E /* helpUsageView.swift in Sources */,
+				FA60D0162F312146006DB60E /* MultipartFormDataBuilder.swift in Sources */,
+				FA60D0172F312146006DB60E /* AboutCervicalRibView.swift in Sources */,
+				FA60D0182F312146006DB60E /* APIService.swift in Sources */,
+				FA60D03A2F3123D4006DB60E /* CoreDataManager.swift in Sources */,
+				FA60D0192F312146006DB60E /* SyncManager.swift in Sources */,
+				FA60D01A2F312146006DB60E /* AppDelegate.swift in Sources */,
+				FA60D01B2F312146006DB60E /* APIModels.swift in Sources */,
+				FA60D01C2F312146006DB60E /* AppConfig.swift in Sources */,
+				FA60D01D2F312146006DB60E /* FLModelManager.swift in Sources */,
+				FA60D01E2F312146006DB60E /* UploadXrayView.swift in Sources */,
+				FA60D01F2F312146006DB60E /* IOSBackButton.swift in Sources */,
+				FA60D0202F312146006DB60E /* LoginView.swift in Sources */,
+				FA60D0212F312146006DB60E /* DetectionResultView.swift in Sources */,
+				FA60D0222F312146006DB60E /* OnboardingView.swift in Sources */,
+				FA60D0232F312146006DB60E /* Extension.swift in Sources */,
+				FA60D0242F312146006DB60E /* FLDatasetManager.swift in Sources */,
+				FA60D0252F312146006DB60E /* FLTrainingSample.swift in Sources */,
+				FA60D0262F312146006DB60E /* HistoryViewModel.swift in Sources */,
+				FA60D0272F312146006DB60E /* FLClient.swift in Sources */,
+				FA60D0292F312146006DB60E /* CerviScanApp.swift in Sources */,
+				FA60D02A2F312146006DB60E /* AuthStore.swift in Sources */,
+				FA60D02B2F312146006DB60E /* NetworkMonitor.swift in Sources */,
+				FA60D02C2F312146006DB60E /* SplashView.swift in Sources */,
+				FA60D02D2F312146006DB60E /* HistoryView.swift in Sources */,
+				FA60D02E2F312146006DB60E /* FLConfig.swift in Sources */,
+				FA60D02F2F312146006DB60E /* CerviScan.xcdatamodeld in Sources */,
+				FA60D0302F312146006DB60E /* FLBackgroundSync.swift in Sources */,
+				FA60D0312F312146006DB60E /* HomeDashboardView.swift in Sources */,
+				FA60D0322F312146006DB60E /* ProfileView.swift in Sources */,
+				FA60D0332F312146006DB60E /* ContentView.swift in Sources */,
+				FA60D0342F312146006DB60E /* SubscriptionView.swift in Sources */,
+				FA60D0352F312146006DB60E /* CerviscanModel.swift in Sources */,
+				FA60D0362F312146006DB60E /* SwipeBackFix.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA1F15B12E9BAAC1009D9A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9LRW6RAN6U;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA1F15B22E9BAAC1009D9A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9LRW6RAN6U;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA1F15B42E9BAAC1009D9A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67AECBD81E94EE06D65FFC35 /* Pods-CerviScan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9LRW6RAN6U;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CXRib/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CXRib;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vickymelwin.CerviScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA1F15B52E9BAAC1009D9A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCC6F97F174310A08BE63674 /* Pods-CerviScan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9LRW6RAN6U;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CXRib/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CXRib;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vickymelwin.CerviScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA1F15A32E9BAAC0009D9A72 /* Build configuration list for PBXProject "CXRib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1F15B12E9BAAC1009D9A72 /* Debug */,
+				FA1F15B22E9BAAC1009D9A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1F15B32E9BAAC1009D9A72 /* Build configuration list for PBXNativeTarget "CXRib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1F15B42E9BAAC1009D9A72 /* Debug */,
+				FA1F15B52E9BAAC1009D9A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA9A81B42F347E5A00BBBF00 /* XCRemoteSwiftPackageReference "tensorflow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tensorflow/tensorflow";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.12.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCVersionGroup section */
+		FA60CFFD2F312146006DB60E /* CerviScan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA60D0052F312146006DB60E /* CerviScan.xcdatamodel */,
+			);
+			currentVersion = FA60D0052F312146006DB60E /* CerviScan.xcdatamodel */;
+			path = CerviScan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA1F15A02E9BAAC0009D9A72 /* Project object */;
+}
